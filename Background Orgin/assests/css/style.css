@@ -1,0 +1,36 @@
+ *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .one{
+            border:8px dashed black;
+            width: 150px;
+            margin-left: 20px;
+            padding: 20px;
+         background-image: url(../images/dog.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: padding-box;
+        }
+        .two{
+            border:8px dashed black;
+            width: 150px;
+             margin-left: 200px;
+            margin-top: 2px;            
+            padding: 20px;
+            background-image: url(../images/dog.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+        }
+        .three{
+            border:8px dashed black;
+            width: 150px;
+            margin-left: 390px;
+            margin-top: 20px;            
+            padding: 20px;
+            background-image: url(../images/dog.webp);
+            background-size: cover;
+            background-origin: border-box;
+        }
